@@ -38,23 +38,13 @@ footer a:hover {
 
 /* --- Contact Page --- */
 
-.contact-header {
+h1.contact {
+    padding: 1.5em;
+}
+.icon {
     padding: 2em;
+    padding-top: 0;
 }
-
-.contact-form p {
-    padding: 2em;
-}
-
-aside li {
-    padding: 1em;
-   
-}
-
-ul {
-    list-style: none;
-}
-
 .icon-links a:link {
     color: #778899;
 }
@@ -65,4 +55,17 @@ ul {
 
 .icon-links a:hover {
     color: #007bff;
+    transition: 0.7s;
 }
+
+@media screen and (max-width:768px) {
+    aside ul {
+            list-style: none;
+            border-left: 3em;
+            padding: 1em 8em 1em 12em;
+        }
+
+    h1 {
+        font-size: 1.75em;
+    }
+    }
