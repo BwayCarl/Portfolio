@@ -90,6 +90,20 @@ footer a:hover {
 .title {
     padding: 1em;
 }
+
+.container:hover .port-img {
+    opacity: 0.3;
+ 
+}
+.container:hover .text {
+    opacity: 1;
+}
+
+.text {
+    color: #333;
+    font-size: 1.5em;
+
+}
 /* --- Contact Page --- */
 
 h1.contact {
@@ -102,15 +116,15 @@ h1.contact {
 }
 
 .icon-links a:link {
-    color: #778899;
+    color: #999999;
 }
 
 .icon-links a:visited {
-    color: #778899;
+    color: #999999;
 }
 
 .icon-links a:hover {
-    color: #007bff;
+    color: #3d9bff;
     transition: 0.7s;
 }
 
