@@ -133,6 +133,9 @@ a:hover {
 h1.contact {
     padding: 1.5em;
 }
+i { 
+    text-shadow: 3px 2px 3px #3d9bff; 
+} 
 
 .icon {
     padding: 2em;
@@ -140,16 +143,19 @@ h1.contact {
 }
 
 .icon-links a:link {
-    color: #999999;
+    color: #e6dede; 
+   
 }
 
 .icon-links a:visited {
-    color: #999999;
+    color: #e6dede;
 }
 
 .icon-links a:hover {
     color: #3d9bff;
-    transition: 0.7s;
+    text-shadow: 3px 6px 6px #e6dede; 
+    transition: 0.35s;
+    transform: scale(1.5);
 }
 
 

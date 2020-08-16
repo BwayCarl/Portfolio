@@ -4,7 +4,7 @@
 
 Original Assignment: to build a responsive portfolio using Bootstrap &amp; CSS.
 
-Updates:
+Week 8 Updates:
 - Pinned repositories to [Github Profile](https://github.com/BwayCarl).
 - Updated [LinkedIn Profile](https://www.linkedin.com/in/carlos-martinez-8702b146/).
 
