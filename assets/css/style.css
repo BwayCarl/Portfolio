@@ -113,12 +113,20 @@ footer a:hover {
 
   img {
     max-width: 100%;
-    display: block;
+   height: auto;
   }
 
 .images.container {
     margin: 2em; 
 }
+
+a:hover {
+    color: #f5f5f5;
+    text-decoration: none;
+    opacity: .7;
+}
+
+
 
 /* --- Contact Page --- */
 
