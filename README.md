@@ -11,8 +11,8 @@ Original Assignment: to build a responsive portfolio using Bootstrap &amp; CSS.
 - Updated [Github Profile.](https://github.com/BwayCarl)
 
 #### Screenshots:
-![Portfolio Homepage]
-![Portfolio About]
-![Portfolio Projects]
-![Portfolio Contact]
-![Portfolio Resume]
+![Portfolio Homepage](./assets/images/Portfolio-Home.png)
+![Portfolio About](./assets/images/Portfolio-About.png)
+![Portfolio Projects](./assets/images/Portfolio-Projects.png)
+![Portfolio Contact](./assets/images/Portfolio-Contact.png)
+![Portfolio Resume](./assets/images/Portfolio-Resume.png)
