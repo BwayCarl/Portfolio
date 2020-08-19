@@ -10,3 +10,4 @@ Original Assignment: to build a responsive portfolio using Bootstrap &amp; CSS.
 - Updated [Portfolio with Resume](https://bwaycarl.github.io/Portfolio/)
 - Updated [Github Profile](https://github.com/BwayCarl)
 
+#### Screenshots:
