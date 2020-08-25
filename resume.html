@@ -17,6 +17,9 @@
     </head>
 
     <body class="bg-dark">
+        <script>
+            document.body.classList.add('fade');
+          </script>
         <div class="wrapper">
             <!-- Nav Bar -->
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -150,5 +153,10 @@
                     </footer>
                 </div>
         </div>
+        <script>
+            document.addEventListener("DOMContentLoaded", function(e) {
+              document.body.classList.remove('fade');
+            });
+          </script>
     </body>
 </html>
