@@ -1,5 +1,7 @@
 # Unit 08 Project 1 Homework: Professional Materials
-
+[![GitHub license](https://img.shields.io/github/license/BwayCarl/Portfolio)](https://github.com/BwayCarl/Portfolio/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/BwayCarl/Portfolio)](https://github.com/BwayCarl/Portfolio/stargazers)
+[![Twitter](https://img.shields.io/twitter/url?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FBwayCarl%2FPortfolio)
 ## RUT-JER-FSF-PT-06-2020-U-C
 
 Original Assignment: to build a responsive portfolio using Bootstrap &amp; CSS.
