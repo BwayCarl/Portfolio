@@ -18,12 +18,11 @@
 </head>
 
 <body>
-    <script>
-        document.body.classList.add('fade');
-      </script>
+        <script>document.body.classList.add('fade');</script>
+
     <div class="wrapper bg-dark">
         <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         
             <a class="navbar-brand" href="index.html">Carlos Martinez</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,45 +58,76 @@
 
         <!-- Portfolio Section -->
         <section class="images">
-            <h2 class= "title text-center display-5">Portfolio</h2><span class="sr-only">Portfolio Images</span>
+            <div><h2 class= "title text-center display-5">Portfolio</h2><span class="sr-only">Portfolio Images</span></div>
       
             <div class="container">
-                <div class="row align-items-smart">
-                    
-                    <div class="col-md-6 overlay">
-                        <img src="./assets/images/Drink-resize.png" class="img-fluid" alt="Low Ball Glass">
-                        <div class="text"><a href="https://bwaycarl.github.io/Project1-Meal-and-Drink-app/drinksindex.html" target="_blank">What Are We Making Tonight?</a></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card bg-dark border-dark" style="width: 32rem;">
+                            <img src="./assets/images/Food-Drink-App.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-white bg-dark">
+                              <h5 class="card-title">What Are We Making Tonight?</h5>
+                              <p class="card-text">An application that randomly provides recipes for four different meals or four different cocktails after choosing a main ingredient.</p>
+                              <a href="https://bwaycarl.github.io/Project1-Meal-and-Drink-app/drinksindex.html" target="_blank" class="btn btn-secondary ctr">Visit the live page</a>
+                              <a href="https://github.com/BwayCarl/Project1-Meal-and-Drink-app" target="_blank" class="btn btn-secondary"><i class="fab fa-github btn-icon"></i> Github Repository</a>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-md-6 overlay">
-                        <img src="./assets/images/Weather-Dashboard.png" class="img-fluid" alt="Weather Dashboard">
-                        <div class="text"><a href="https://bwaycarl.github.io/weather-dashboard/" target="_blank">Weather Dashboard</a></div>
+                    <div class="col-md-6">
+                        <div class="card bg-dark border-dark" style="width: 32rem;">
+                            <img src="./assets/images/Weather-Dashboard.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-white bg-dark">
+                                <h5 class="card-title">Weather Dashboard</h5>
+                                <p class="card-text">A weather dashboard app using a third party API to return current weather information and a 5-day forecast for searched city.</p>
+                                <a href="https://bwaycarl.github.io/weather-dashboard/" target="_blank" class="btn btn-secondary">Visit the live page</a>
+                                <a href="https://github.com/BwayCarl/weather-dashboard" target="_blank" class="btn btn-secondary"><i class="fab fa-github btn-icon"></i> Github Repository</a>
+                            </div>
+                        </div>
                     </div>
-
                 </div>
             </div>
-            
-            <div class="container">
-                <div class="row align-items-smart">
-                    <div class="col-md-6 overlay">
-                        <img src="./assets/images/Password-generator.png" class="img-fluid" alt="Password Window">
-                        <div class="text"><a href="https://bwaycarl.github.io/password-generator/" target="_blank">Secure Password Generator</a></div>
-                    </div>
+           
+            </section>
 
-                    <div class="col-md-6 overlay">
-                        <img src="./assets/images/Workday-Scheduler.png" class="img-fluid" alt="Workday Scheduler">
-                        <div class="text"><a href="https://bwaycarl.github.io/workday-scheduler/"target="_blank">Workday Scheduler</div>
+            <section class="images">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card bg-dark border-dark" style="width: 32rem;">
+                                <img src="assets/images/Password-Gen.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-white bg-dark border-dark">
+                                    <h5 class="card-title border-dark">Secure Password Generator</h5>
+                                    <p class="card-text">An application used to generate a random password after prompts ask for certain criteria.</p>
+                                    <a href="https://bwaycarl.github.io/password-generator/" target="_blank" class="btn btn-secondary">Visit the live page</a>
+                                    <a href="https://github.com/BwayCarl/password-generator" target="_blank" class="btn btn-secondary"><i class="fab fa-github btn-icon"></i> Github Repository</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div></div>
+                        <div class="col-md-6">
+                            <div class="card bg-dark border-dark" style="width: 32rem;">
+                                <img src="./assets/images/Workday-Scheduler.jpg" class="card-img-top" alt="...">
+                                <div class="card-body text-white bg-dark">
+                                    <h5 class="card-title">Workday Scheduler</h5>
+                                    <p class="card-text">A calendar application that allows the user to save events for each hour of the work day. This app runs in the browser.</p>
+                                    <a href="https://bwaycarl.github.io/workday-scheduler/" target="_blank" class="btn btn-secondary">Visit the live page</a>
+                                    <a href="https://github.com/BwayCarl/workday-scheduler" target="_blank" class="btn btn-secondary"><i class="fab fa-github btn-icon"></i> Github Repository</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
                 </div>
-            </div>
-        </section>
+            </section>
+        
+            <div></div>
+
         <!-- Footer -->
-        <footer id="sticky-footer" class="py-3 mt-auto bg-dark fixed-bottom">
+        <footer id="sticky-footer" class="py-3 mt-auto bg-dark">
             <div class="container text-right">
               <small> Copyright &copy; <a href="contact.html">Carlos Martinez</a></small>
             </div>
-          </footer>
+        </footer>
     </div>
     <script>
         document.addEventListener("DOMContentLoaded", function(e) {
