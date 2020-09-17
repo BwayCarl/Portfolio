@@ -147,9 +147,6 @@ a:hover {
 
 h1.contact {
     padding: 1.5em;
-}
-i { 
-    text-shadow: 3px 2px 3px #3d9bff; 
 } 
 
 .icon {
@@ -167,10 +164,10 @@ i {
 }
 
 .icon-links a:hover {
-    color: #3d9bff;
-    text-shadow: 2px 4px 4px #e6dede; 
+    color: #46acffce;
+    text-shadow: 1px 1px 8px rgb(227, 234, 235); 
     transition: 0.35s;
-    transform: scale(1.5);
+    transform: scale(3);
 }
 /* --- Resume Page --- */
 
