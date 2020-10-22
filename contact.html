@@ -79,16 +79,12 @@
                  <!-- Contact Form  -->
                 <div class="row bg-dark, text-light">
                     <div class="container col-md-6">
-                       <!-- <h5 class="text-center">Or call to chat. <i class="fas fa-phone-alt"></i> 917-848-8949</h5>
-                    <h5 class="text-center">...or leave your message below and I will be back to you as soon as possible.</h5>
-                        <br> -->
                         <form id="contact-form" method="POST" action="https://formspree.io/f/xrgoqaoq" role="form">
-                        
                             <div class="controls">
-                        
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
+                                            <!-- First Name -->
                                             <label for="form_name">First Name *</label>
                                             <input id="form_name" type="text" name="name" class="form-control" placeholder="John" required="required" data-error="Firstname is required.">
                                             <div class="help-block with-errors"></div>
@@ -96,6 +92,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
+                                            <!-- Last Name -->
                                             <label for="form_lastname">Last Name *</label>
                                             <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Doe" required="required" data-error="Lastname is required.">
                                             <div class="help-block with-errors"></div>
@@ -105,6 +102,7 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
+                                            <!-- Email -->
                                             <label for="form_email">E-mail *</label>
                                             <input id="form_email" type="email" name="email" class="form-control" placeholder="johndoe@email.com" required="required" data-error="Valid email is required.">
                                             <div class="help-block with-errors"></div>
@@ -112,6 +110,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
+                                            <!-- Phone -->
                                             <label for="form_phone">Phone</label>
                                             <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="XXX-XXX-XXXX">
                                             <div class="help-block with-errors"></div>
@@ -121,19 +120,21 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
+                                            <!-- Message -->
                                             <label for="form_message">Message *</label>
                                             <textarea id="form_message" name="message" class="form-control" placeholder="What can I do for you?" rows="6" required="required" data-error="Please include a message."></textarea>
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
+                                        <!-- Submit Button -->
                                         <input type="submit" class="btn btn-outline-primary btn-send" value="Send message">
+                                        <input type="hidden" name="_next" value="https://bwaycarl.github.io/Portfolio/about.html" />
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
                                         <p class="text-light"><strong>*</strong><i> These fields are required. </i></p>
-                                       
                                     </div>
                                 </div>
                             </div>
