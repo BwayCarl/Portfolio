@@ -225,8 +225,19 @@ hr {
 .btn-send {
     color: rgb(125, 192, 250);
 }
-
-
+.thanks-title {
+    color: #f5f5f5;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-top: 6rem;
+}
+.thanks-reply {
+    color: #f5f5f5;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
 @media screen and (max-width:768px) {
 
     /* Home Page */
@@ -282,4 +293,5 @@ hr {
 
 #profile-pic {
     max-height: 400px;
+    align-items: center;
 }
